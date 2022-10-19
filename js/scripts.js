@@ -36,4 +36,7 @@ $(document).ready(function() {
 	controller.addTween('#impacto2', TweenMax.from( $('#impacto2'), .5, {css:{opacity: 0}}));
 	controller.addTween('#impacto3', TweenMax.from( $('#impacto3'), .5, {css:{opacity: 0}}));
 	controller.addTween('#impacto4', TweenMax.from( $('#impacto4'), .5, {css:{opacity: 0}}));
+
+	// Contacto
+	controller.addTween('#contacto', TweenMax.from( $('#contacto'), .5, {css:{opacity: 0}}));
 });
